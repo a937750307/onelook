@@ -10,3 +10,10 @@ native-support/archive/upload/
 ui/theme/default/css/*.css
 ui/theme/default/css/*.css.map
 lib/bower/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
